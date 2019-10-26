@@ -1,8 +1,15 @@
+import Layout from '../components/Layout'
+
+const name = {
+  color: 'red'
+}
+
 export default function GuesInformation() {
-    return (
-      <div>
-        <p>This is the about guest information.</p>
-      </div>
-    );
-  }
+  const personName = 'osh'
+  return (
+    <Layout>
+      <p>Guest info</p>
+    </Layout>
+  );
+}
   

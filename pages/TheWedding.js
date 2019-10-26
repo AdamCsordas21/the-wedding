@@ -1,8 +1,9 @@
+import Layout from '../components/Layout'
+
 export default function TheWedding() {
-    return (
-      <div>
-        <p>This is the about the wedding.</p>
-      </div>
-    );
-  }
-  
+  return (
+    <Layout>
+      <p>This is the about the wedding.</p>
+    </Layout>
+  );
+}

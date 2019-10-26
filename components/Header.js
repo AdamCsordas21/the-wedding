@@ -5,8 +5,20 @@ const linkStyle = {
   fontFamily: "Arial"
 };
 
+const name = {
+  fontSize: '4.50em',
+  lineHeight: '1.85em',
+  textTransform: 'none',
+  letterSpacing: 'normal',
+  color: '#202633',
+  margin: 0,
+  fontWeight: 'normal',
+  fontFamily: "Sophia Script Medium",
+}
+
 const Header = () => (
   <div>
+    <h1 style={name}>Nela<br/>&amp;<br/>Adam</h1>
     <Link href="/index">
       <a style={linkStyle}>Home</a>
     </Link>
@@ -15,9 +27,6 @@ const Header = () => (
     </Link>
     <Link href="/GuestInformation">
       <a style={linkStyle}>Guest Information</a>
-    </Link>
-    <Link href="/gifts">
-      <a style={linkStyle}>Gifts</a>
     </Link>
   </div>
 );
