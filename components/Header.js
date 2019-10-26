@@ -1,9 +1,4 @@
-import Link from 'next/link';
-
-const linkStyle = {
-  marginRight: 15,
-  fontFamily: "Arial"
-};
+import LinkButtons from './LinkButtons'
 
 const header = {
   paddingTop: '85px',
@@ -21,14 +16,6 @@ const name = {
   fontWeight: 'normal',
   fontFamily: "Sophia Script Medium",
 }
-
-const LinkButtons = () => <>
-  <LinkButton href="/index" desc="Home" />
-  <LinkButton href="/TheWedding" desc="The Wedding" />
-  <LinkButton href="/GuestInformation" desc="Guest Information" />
-</>
-
-const LinkButton = ({ href, desc }) => <Link href={href}><a style={linkStyle}>{desc}</a></Link>
 
 const Header = () => (
   <header style={header}>
