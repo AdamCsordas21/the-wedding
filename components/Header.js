@@ -5,6 +5,12 @@ const linkStyle = {
   fontFamily: "Arial"
 };
 
+const header = {
+  paddingTop: '85px',
+  height: '510px',
+  textAlign: 'center',
+}
+
 const name = {
   fontSize: '4.50em',
   lineHeight: '1.85em',
@@ -16,19 +22,15 @@ const name = {
   fontFamily: "Sophia Script Medium",
 }
 
+const LinkButton = ({ href, desc }) => <Link href={href}><a style={linkStyle}>{desc}</a></Link>
+
 const Header = () => (
-  <div>
+  <header style={header}>
     <h1 style={name}>Nela<br/>&amp;<br/>Adam</h1>
-    <Link href="/index">
-      <a style={linkStyle}>Home</a>
-    </Link>
-    <Link href="/TheWedding">
-      <a style={linkStyle}>The Wedding</a>
-    </Link>
-    <Link href="/GuestInformation">
-      <a style={linkStyle}>Guest Information</a>
-    </Link>
-  </div>
+    <LinkButton href="/index" desc="Home" />
+    <LinkButton href="/TheWedding" desc="The Wedding" />
+    <LinkButton href="/GuestInformation" desc="Guest Information" />
+  </header>
 );
 
 export default Header;

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Sophia Script Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Sophia Script Medium"), local('SophiaScript-Medium'), url("/fonts/SophiaScript-Medium.otf") format('opentype');
+  }
+
+@font-face {
+    font-family: "Sophia Script";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Sophia Script Medium"), local('SophiaScript-Medium'), url("/fonts/SophiaScript-Medium.otf") format('opentype');
+  }
+
+@font-face {
+    font-family: "Papyrus";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Papyrus"), local("Papyrus Regular"), local("Papyrus-Regular"), url("/fonts/Papyrus.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "MrsEavesRoman Regular";
+    font-style: normal;
+    font-weight: 500;
+    src: local("MrsEavesRoman"), local('MrsEavesRoman'), url("/fonts/MrsEavesRoman-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "MrsEavesRoman";
+    font-style: normal;
+    font-weight: 500;
+    src: local("MrsEavesRoman"), local('MrsEavesRoman'), url("/fonts/MrsEavesRoman-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "MrsEavesAllPetiteCaps Regular";
+    font-style: normal;
+    font-weight: 500;
+    src: local("MrsEavesAllPetiteCaps"), local('MrsEavesAllPetiteCaps'), url("/fonts/MrsEavesAllPetiteCaps-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "MrsEavesAllPetiteCaps";
+    font-style: normal;
+    font-weight: 500;
+    src: local("MrsEavesAllPetiteCaps"), local('MrsEavesAllPetiteCaps'), url("/fonts/MrsEavesAllPetiteCaps-Regular.ttf") format('truetype');
+}

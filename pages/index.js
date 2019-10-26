@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 
 const Index = () => (
   <Layout>
-    <p>The Nela and Adam wedding page</p>
+    <img src='/img/nelaandadamminigolf.jpg' alt="mini golf" />
   </Layout>
 )
 
