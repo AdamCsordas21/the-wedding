@@ -18,7 +18,6 @@ export default ({ children }) => (
         maxWidth: '960px',
         paddingRight: '1em',
         paddingLeft: '1em',
-        textAlign: 'center',
       }}>{children}</div>
     </div>
     <Footer />
@@ -27,6 +26,15 @@ export default ({ children }) => (
       * {
         font-family: Papyrus;
         margin: 0;
+      }
+
+      h1, h2 {
+        text-align: center;
+        padding-bottom: 2rem;
+      }
+
+      h3 {
+        text-align: center;
       }
     `}</style>
   </>

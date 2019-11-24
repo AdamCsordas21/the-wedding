@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => <div style={{
     display: 'block',
-    padding: '2rem 0',
+    padding: '1rem 0',
     margin: 'auto',
     height: '50px',
     width: '200px',

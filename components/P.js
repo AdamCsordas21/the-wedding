@@ -3,6 +3,6 @@ import React from 'react';
 export default ({children}) => <p style={{
   marginTop: '12px',
   fontSize: '16px',
-  padding: '1.5rem',
+  padding: '0.5rem 0'
 }}
 >{children}</p>
