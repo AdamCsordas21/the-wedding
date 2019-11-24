@@ -1,0 +1,611 @@
+
+	/* Base Element Styles */
+
+	* {
+		box-sizing: border-box;
+ 		font-family: Papyrus;
+		margin: 0;
+	}
+
+	body {
+		margin: 0;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	p {
+		margin-top: 12px;
+		letter-spacing: normal;
+		font-style: normal;
+		font-size: 16px;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	ol {
+		list-style: none;
+		padding: 0;
+		font-size: 2.50em;
+	}
+
+	img {
+		display: block;
+		box-sizing: border-box;
+		max-width: 100%;
+		margin-bottom: 30px;
+		border: 14px solid #fff;
+		box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+	}
+
+	input[type="text"] {
+		margin-top: 35px;
+		font-family: "MrsEavesRoman Regular";
+	    font-weight: 400;
+	    font-style: normal;
+	    line-height: 1.3;
+	    text-transform: none;
+	    letter-spacing: normal;
+	    font-size: 14px;
+	    width: 45%;
+	    background-color: rgb(255, 255, 255);
+	    border-color: rgba(0, 0, 0, 0.2);
+	    border-style: solid;
+	    border-radius: 3px;
+	    border-width: 1px;
+	    box-sizing: border-box;
+	    padding: 8px 20px;
+	    margin-bottom: 20px;
+	}
+
+	button {
+		font-family: "MrsEavesAllPetiteCaps Regular";
+	    font-weight: 400;
+	    font-style: normal;
+	    line-height: 1.6;
+	    text-transform: none;
+	    letter-spacing: 2px;
+	    font-size: 16px;
+	    width: 90%;
+	    vertical-align: middle;
+	    touch-action: manipulation;
+	    cursor: pointer;
+	    background-image: none;
+	    white-space: nowrap;
+	    padding: 12px;
+	    border-width: 1px;
+	    border-style: solid;
+	    text-decoration: none;
+	    border-color: transparent;
+	    color: rgb(255, 255, 255);
+	    background-color: rgb(32, 38, 51);
+	    border-radius: 0px;
+	    margin-bottom: 50px;
+	}
+
+
+	button.small_margin {
+		margin-bottom: 10px;
+	}
+
+	input[type="submit"]{
+		font-family: "MrsEavesAllPetiteCaps Regular";
+	    font-weight: 400;
+	    font-style: normal;
+	    line-height: 1.6;
+	    text-transform: none;
+	    letter-spacing: 2px;
+	    font-size: 14px;
+	    width: 30.2%;
+	    vertical-align: middle;
+	    touch-action: manipulation;
+	    cursor: pointer;
+	    background-image: none;
+	    white-space: nowrap;
+	    padding: 12px;
+	    border-width: 1px;
+	    border-style: solid;
+	    text-decoration: none;
+	    border-color: transparent;
+	    color: rgb(255, 255, 255);
+	    background-color: rgb(32, 38, 51);
+	    border-radius: 0px;
+	    margin-bottom: 50px;
+	}
+
+	textarea {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 50%;
+		height: 150px;
+		padding: 12px 20px;
+		box-sizing: border-box;
+		border: 1px solid #000;
+		border-radius: 4px;
+		background-color: #fff;
+		font-size: 16px;
+	}
+
+	.backsim {
+		font-size: 3.50em;
+	}
+
+	.backsim2 {
+		font-size: 3.50em
+	}
+
+	.paragraph {
+		text-align: left;
+		margin-left: 45px;
+		margin-right: 45px;
+		margin-bottom: 10px;
+	}
+
+	.supportOurteams {
+		font-size: 1.45em;
+	}
+
+	.largeDivider {
+		margin-top: -23px;
+	}
+
+	.transport {
+		text-align: left;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	/* Base Layout Styles */
+
+	.main-header {
+		padding-top: 85px;
+		height: 510px;
+		text-align: center;
+	}
+
+	.main-header2 {
+		padding-top: 85px;
+		height: 310px;
+		text-align: center;
+	}
+
+	.main-nav {
+		text-align: center;
+		z-index: 1;
+	}
+
+
+	.main-nav li {
+		font-style: normal;
+		letter-spacing: 1.6px;
+		display: inline-block;
+		margin-right: 15px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.main-nav a {
+		font-size: 1.40em;
+		color: #000;
+	}
+
+	.main-nav a:hover {
+		color: #093a58;
+	}
+
+	.name {
+		font-size: 4.50em;
+		line-height: 1.85em;
+		text-transform: none;
+		letter-spacing: normal;
+		color: #202633;
+		margin: 0;
+		font-weight: normal;
+		font-family: "Sophia Script Medium";
+	}
+
+	.hotellist li {
+		margin-top: 10px;
+		font-size: 20px;
+	}
+
+	.hotellist a:hover {
+		color: #093a58;
+		text-decoration: underline;
+	}
+
+
+
+	/* Layout Containers */
+
+	.wrapper {
+		padding-top: 0;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 960px;
+		padding-right: 1em;
+		padding-left: 1em;
+		text-align: center;
+	}
+
+	.OurStory {
+		padding-top: 20px;
+	}
+
+	#Home {
+		color: grey;
+	}
+
+	.football {
+		padding-top: 15px;
+		padding-bottom: 40px;
+	}
+
+	.engagement {
+		padding-top: 15px;
+		padding-bottom: 40px;
+	}
+
+	.TheWedding {
+		padding-top: 20px;
+	}
+
+	#TheWedding {
+		color: grey;
+	}
+
+	.timeline {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: left;
+		margin-left: 120px;
+		margin-right: 100px;
+		line-height: 2;
+	}
+
+	.GettingThere {
+		padding-top: 20px;
+	}
+
+	.Getthere {
+		padding-top: 60px;
+	}
+
+	.Accomodation {
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.GuestInformation {
+		padding-top: 60px;
+	}
+
+	#GuestInformation {
+		color: grey;
+	}
+
+	.transport {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-family: Papyrus;
+		margin-top: 12px;
+		letter-spacing: normal;
+		font-style: normal;
+		font-size: 20px;
+	}
+
+	.Gifts {
+		padding-top: 60px;
+	}
+
+	#Gifts {
+		color: grey;
+	}
+
+	.quote {
+		padding-top: 35px;
+		padding-bottom: 60px;
+	}
+
+	.RSVP {
+		padding-top: 60px;
+	}
+
+	.Invited {
+		font-size: 1.65em;
+		padding-top: 35px;
+	}
+
+	#RSVP {
+		color: grey;
+	}
+
+	.main-footer {
+		border-top: 1px solid #000;
+		margin-top: 50px;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		padding: 1.5em 0;
+		text-align: center;
+		float: right;
+	}
+
+	.main-nav.scrolled {
+		box-shadow: 0 1px 4px rgba(0,0,0,.4);
+	}
+
+	.Alex {
+		font-family: "Sophia Script Medium";
+		font-size: 3em;
+		line-height: 1.85em;
+		letter-spacing: normal;
+		font-weight: normal;
+		color: #202633;
+	}
+
+	.Ashley {
+		font-family: "Sophia Script Medium";
+		font-size: 3em;
+		line-height: 1.85em;
+		letter-spacing: normal;
+		font-weight: normal;
+		color: #202633;
+	}
+
+	.checkbox {
+	    width: 25px;
+	}
+
+
+	/* Hamburger */
+
+	.nav {
+		z-index: 1;
+	}
+
+	.nav.scrolled {
+		box-shadow: 0 1px 4px rgba(0,0,0,.4);
+	}
+
+	.menu {
+	  	margin: 0 30px 0 0;
+	}
+
+	.menu a {
+	  	clear: left;
+	  	text-decoration: none;
+	  	color: #000;
+	  	margin: 0 10px;
+	  	line-height: 70px;
+	}
+
+	.nav label {
+	  	margin: 0 40px 0 0;
+	  	font-size: 20px;
+	  	line-height: 70px;
+	  	display: none;
+	  	color: #000;
+	  	width: 100%;
+	  	border: 1px solid #fff;
+	  	float: left;
+	}
+
+	#toggle {
+	  	display: none;
+	}
+
+
+	@media only screen and (max-width: 670px) {
+	  	.nav {
+			position: sticky;
+			background-color: #fff;
+			width: 100%;
+			top: 0;
+			line-height: 70px;
+			min-height: 70px;
+		}
+
+	  	.nav label {
+	  		position: sticky;
+			background-color: #fff;
+			width: 100%;
+			display: block;
+	  		cursor: pointer;
+	  		padding-left: 15px;
+	  	}
+
+	  	.menu {
+	  		text-align: center;
+	  		width: 100%;
+	  		display: none;
+	  	}
+
+		.nav.scrolled {
+			box-shadow: 0 1px 4px rgba(0,0,0,.4);
+		}
+
+	  	.menu a {
+	  		display: block;
+			border-bottom: 1px solid #EAEAEB;
+	  		margin: 0;
+
+	  	}
+
+	  	#toggle:checked + .menu {
+	  		display: block;
+	  	}
+
+	  	button.small_margin {
+			margin-bottom: 10px;
+	}
+	  }
+
+
+	/* Hamburger */
+
+
+	/* Media Queries */
+
+
+	@media only screen and (max-width: 670px) {
+		.name {
+			font-size: 33.6px;
+		}
+
+		.main-header {
+			height: 320px;
+		}
+
+		.paragraph {
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		.timeline,
+		.transport {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		h1, h2,
+		.OurStory,
+		.TheWedding {
+			font-weight: 400;
+			font-size: 32px;
+    		font-style: normal;
+    		line-height: 1;
+    		text-transform: none;
+		    letter-spacing: 2px;
+    		color: #202633;
+    		margin: 0;
+		}
+
+		.Ashley,
+		.Alex {
+			font-size: 32px;
+		}
+
+		.smallDivider {
+		}
+
+		.paragraph,
+		.timeline {
+			font-weight: 400;
+    		font-style: normal;
+    		line-height: 1.6;
+    		text-transform: none;
+    		letter-spacing: normal;
+    		font-size: 16.5px;
+    		color: #202633;
+		}
+
+		.hotellist {
+			font-size: 32px;
+			font-style: normal;
+			margin-left: 20px;
+		}
+
+		.main-nav {
+			text-align: center;
+			width: 80%;
+			display: none;
+			padding-top: 10px;
+			margin: 0 30px 0 0;
+		}
+
+	  	.main-nav a {
+	  		display: block;
+	  		border-bottom: 1px solid #EAEAEB;
+	  		margin: 0;
+	  	}
+	}
+
+	@media only screen and (max-width: 768px) {
+		.name {
+			font-size: 33.6px;
+		}
+
+		.main-nav {
+			position: sticky;
+			background-color: #fff;
+			width: 100%;
+			top: 0;
+		}
+
+		.menu {
+			display: none;
+		}
+	}
+
+	@media only screen and (max-width: 785px) {
+		.name {
+			font-size: 33.6px;
+		}
+
+		.main-nav {
+			position: sticky;
+			background-color: #fff;
+			width: 100%;
+			top: 0;
+		}
+
+		.main-header {
+			height: 320px;
+		}
+
+		.main-header2 {
+			height: 250px;
+		}
+
+		.menu {
+			display: none;
+		}
+	}
+
+	@media only screen and (min-width: 786px) {
+		.main-nav {
+			position: sticky;
+			background-color: #fff;
+			width: 100%;
+			top: 0;
+		}
+
+		.menu {
+			display: none;
+		}
+
+	}
+
+    @media only screen and (min-width: 1140px) {
+    	.main-nav {
+    		position: sticky;
+    		background-color: #fff;
+    		width: 100%;
+    		top: 0;
+		}
+
+    }
+
+	.Bridesmade {
+		padding-top: 60px;
+		float: left;
+		width: 45%;
+	}
+
+	.Bestman {
+		padding-top: 60px;
+		float: right;
+		width: 45%;
+	}
+
+	.clearfix::after {
+	    content: "";
+	    clear: both;
+	    display: table;
+	}

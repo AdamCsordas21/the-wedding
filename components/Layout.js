@@ -1,33 +1,33 @@
-import Header from './Header'
-import Head from 'next/head'
+import Header from './Header';
+import Footer from './Footer';
+import Head from 'next/head';
 
-const layoutStyle = {
-  margin: 20,
-  padding: 20,
-}
-
-const MyLayout = ({ children }) => (
-  <div style={layoutStyle}>
+export default ({ children }) => (
+  <>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
       <link rel="stylesheet" href="/css/font.css" />
     </Head>
-    <Header />
-    {children}
+    <div style={{margin: 20, padding: 20}}>
+      <Header />
+      <div style={{
+        paddingTop: 0,
+        marginRight: 'auto',
+        marginLeft: 'auto',
+        maxWidth: '960px',
+        paddingRight: '1em',
+        paddingLeft: '1em',
+        textAlign: 'center',
+      }}>{children}</div>
+    </div>
+    <Footer />
+
     <style global jsx>{`
-      img {
-        display: block;
-        box-sizing: border-box;
-        max-width: 100%;
-        margin-bottom: 30px;
-        border: 14px solid #fff;
-        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+      * {
+        font-family: Papyrus;
+        margin: 0;
       }
     `}</style>
-  </div>
+  </>
 )
-
-
-  
-export default MyLayout;

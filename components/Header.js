@@ -1,4 +1,4 @@
-import LinkButtons from './LinkButtons'
+import LinkButtons from './LinkButtons';
 
 const header = {
   paddingTop: '85px',
