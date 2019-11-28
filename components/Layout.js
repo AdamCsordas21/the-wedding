@@ -33,7 +33,7 @@ export default ({ children }) => (
         padding-bottom: 2rem;
       }
 
-      h3 {
+      h3, h5 {
         text-align: center;
       }
     `}</style>

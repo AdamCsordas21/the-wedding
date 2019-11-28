@@ -11,7 +11,7 @@ const Index = () => {
     <h1>June 27<sup>th</sup>, 2019</h1>
     <h2>WE ARE MARRIED</h2>
     <Divider />
-    <h2>Our story</h2>
+    <h1>Our story</h1>
     <P>
       It was end of October 2016 when Chelsea beat Manchester United 4-0...
       We were enthusiasticly supporting our teams, Nela - Chelsea, Adam - Manchester United. We were quickly commenting on every action of the game over Whatsapp. After this insane chat and lots of laughs we couldn't stop talking to each other. After a while, finally, Adam asked Nela out for a date. We met at London Bridge in a cozy bar. After getting to know each other, we felt like we are on the same page. We both knew it is just a beginning of something real and special. Since then, we are inseparable and madly in <strong>LOVE</strong>.
