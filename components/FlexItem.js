@@ -1,6 +1,6 @@
 import React from 'react';
-import Divider from '../components/Divider'
-import P from '../components/P'
+import Divider from '../components/Divider';
+import P from '../components/P';
 
 export default ({ h1, h3, children }) => <div style={{ flexBasis: '45%' }}>
   <h1 style={{

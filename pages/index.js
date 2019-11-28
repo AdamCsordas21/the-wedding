@@ -4,7 +4,8 @@ import P from '../components/P';
 import Img from '../components/Img';
 import ImgFigure from '../components/ImgFigure';
 
-const Index = () => (
+const Index = () => {
+  return (
   <Layout>
     <Img src='/img/nelaandadamminigolf.jpg' alt="mini golf" />
     <h1>June 27<sup>th</sup>, 2019</h1>
@@ -24,6 +25,7 @@ const Index = () => (
       We planned to spend the weekend together and Adam organised some nice surprise. Nela tried to guess: a day at spa, a romantic lunch, a day in trampoline park? When the taxi stopped just outside of the building in Battersea, she still hasn't got a clue what it is about until the lady at the reception desk asked: "Are you ready for your private helicopter ride?" Laughs, screams and excitement. We have talked about this as a thing on the bucket list, but wouldn't have thought it is happening right now! We got a short instruction video and put on the life jackets. All ready to go! The flight was breathtaking experience, who would have imagined that this wasn't ALL. When we landed a member of the airport crew offered to take some pictures of us with the helicopter. At some point, Nela looked to her side and noticed that Adam is not there anymore. He was on his knee with the ring shining from the open box asking to marry him! This was a pure moment of happiness and surprise. She said YES! We kissed, we hugged and we couldn't stop smiling.
     </P>
   </Layout>
-)
+  );
+}
 
 export default Index;

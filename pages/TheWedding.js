@@ -37,7 +37,7 @@ const TheWedding = () => {
         <FlexItem h1="Alex" h3="The Bridesmade">Me and Alex are cousins. We are very similar or at least we laugh at the same things. Alex is perfect choice for the Bridesmaid as she is so friendly and highly organised. If you feel lost or need anything on the Wedding Day, Alex is the best person to talk to.</FlexItem>
         <FlexItem h1="Ashley" h3="The Best Man">I know Ashley for 7 years. We met at work and since then, we are best friends. Ashley is a great guy, he can make anyone laugh and stays cool in every situation. No doubt, he is the best choice to be my best man. Feel free to ask him, if you need any help.</FlexItem>
       </FlexBox>
-    </Layout >
+    </Layout>
   );
 }
 
