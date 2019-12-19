@@ -22,6 +22,13 @@ const GuestInformation = () => {
       </ol>
       <Divider />
       <h1>Accomodation</h1>
+      <h5>If you wish to stay overnight nearby the wedding venue, here is a list of hotels within 5-7 minutes by car:</h5>
+      <P></P>
+      <h3>De Rougemont Manor</h3>
+      <h3>Travelodge, Brentwood East Horndon Hotel</h3>
+      <h3>Holiday Inn, Festival Leisure Park, Basildon</h3>
+      <P></P>
+      <h5>At your convenience, you can book your taxi at Friern Manor reception desk.</h5>
     </Layout>
   );
 }

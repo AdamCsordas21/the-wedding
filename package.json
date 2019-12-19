@@ -17,6 +17,8 @@
     "next": "^9.1.1",
     "next-images": "^1.2.0",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "react-native-a": "^1.0.1",
+    "react-native-hyperlink": "0.0.18"
   }
 }
