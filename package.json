@@ -20,5 +20,8 @@
     "react-dom": "^16.10.2",
     "react-native-a": "^1.0.1",
     "react-native-hyperlink": "0.0.18"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }
