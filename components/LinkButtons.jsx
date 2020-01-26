@@ -1,20 +1,19 @@
+import React from 'react';
 import Link from 'next/link';
 
 const LinkButton = ({ href, desc }) => (
   <>
-    <Link href={href}><a>{desc}</a></Link>
-    <style jsx>{`
-      a {
-        text-decoration: none;
-        padding: 20px;
-        color: black;
-        font-size: 1.4em;
-      }
-    `}</style>
+    <Link href={href}><a style={
+      {
+        textDecoration: "none",
+        padding: "20px",
+        color: "black",
+        fontSize: "1.4em"
+      }}>{desc}</a></Link>
   </>
 )
 
-export default () => <nav style={{
+export default () => <nav data-testid="link-button" style={{
   letterSpacing: '1.6px',
   padding: '25px 0',
 }}>
