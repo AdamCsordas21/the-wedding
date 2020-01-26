@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const LinkButton = ({ href, desc }) => (
   <>
-    <Link href={href}><a style={
+    <Link href={href}><a data-testid="link-button" style={
       {
         textDecoration: "none",
         padding: "20px",
@@ -13,7 +13,7 @@ const LinkButton = ({ href, desc }) => (
   </>
 )
 
-export default () => <nav data-testid="link-button" style={{
+export default () => <nav data-testid="link-buttons" style={{
   letterSpacing: '1.6px',
   padding: '25px 0',
 }}>
