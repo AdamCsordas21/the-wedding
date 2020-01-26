@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default () => <div style={{
+export default () => <div data-testid="divider" style={{
     display: 'block',
     padding: '1rem 0',
     margin: 'auto',
