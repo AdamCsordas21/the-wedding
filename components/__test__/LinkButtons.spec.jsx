@@ -8,19 +8,17 @@ describe('Link Buttons', () => {
     const { getByTestId } = render(<LinkButtons />)
     expect(getByTestId('link-buttons')).toBeInTheDocument()
   })
-  it('renders the Home link', () => {
-    const { getAllByTestId } = render(<LinkButtons />)
-    const element = getAllByTestId('link-button').find(e => e.getAttribute('href') === '/index')
-    expect(element).toHaveTextContent('Home')
-  })
-  it('renders the The Wedding link', () => {
-    const { getAllByTestId } = render(<LinkButtons />)
-    const element = getAllByTestId('link-button').find(e => e.getAttribute('href') === '/TheWedding')
-    expect(element).toHaveTextContent('The Wedding')
-  })
-  it('renders the Guest Information link', () => {
-    const { getAllByTestId } = render(<LinkButtons />)
-    const element = getAllByTestId('link-button').find(e => e.getAttribute('href') === '/GuestInformation')
-    expect(element).toHaveTextContent('Guest Information')
+
+  const links = [
+    { href: '/index', link: 'Home' },
+    { href: '/TheWedding', link: 'The Wedding' },
+    { href: '/GuestInformation', link: 'Guest Information' },
+  ]
+  links.forEach(({ href, link }) => {
+    it(`renders the ${link} link`, () => {
+      const { getAllByTestId } = render(<LinkButtons />)
+      const element = getAllByTestId('link-button').find(e => e.getAttribute('href') === href)
+      expect(element).toHaveTextContent(link)
+    })
   })
 })
